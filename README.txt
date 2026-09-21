@@ -1,27 +1,12 @@
-# Alejandro Bernabe Guerrero — SAP QR Portfolio
+PORTFOLIO SAP - ALEJANDRO BERNABE GUERRERO
 
-Landing de una sola pantalla, optimizada para móvil y pensada para el QR del Speed Dating SAP.
+1. Abre index.html con un servidor local (por ejemplo VS Code Live Server).
+2. Mantén la carpeta assest junto a index.html.
+3. Añade tu foto en assest/fondoBlanco.jpg para el avatar.
+4. Cada certificación es clicable y abre su credencial pública de Credly.
+5. El QR abre directamente LinkedIn.
 
-Contenido basado en el CV facilitado:
-- Fullstack Developer · AI & Big Data Specialist · SAP ABAP Cloud & BTP
-- SAP Certified - Back-End Developer - ABAP Cloud
-- SAP Certified - SAP BTP Administrator
-- SAP Certified - SAP Generative AI Developer
-- Doble titulación DAW + DAM (IFP, 2022–2025)
-- Especialización en IA y Big Data (I.E.S. Punta del Verde, 2025–2026)
-
-Archivos:
-- index.html
-- CV_Alejandro_Bernabe_Guerrero.pdf
-
-Para dejarlo listo para el QR:
-1. Sube esta carpeta a Vercel, Netlify o GitHub Pages.
-2. Obtén la URL pública.
-3. Genera un QR apuntando a esa URL.
-4. Ese QR abrirá directamente esta tarjeta.
-
-WhatsApp: +34 691 175 987
-LinkedIn: https://www.linkedin.com/in/alejandro-bernab%C3%A9-guerrero-708b791b2/
-
-
-QR_LinkedIn_Alejandro.png abre directamente el perfil de LinkedIn de Alejandro.
+Credenciales Credly:
+- ABAP Cloud: https://www.credly.com/badges/3b65d155-83f9-4df2-9f9c-cd22de9ae7af/public_url
+- BTP Administrator: https://www.credly.com/badges/bbc6e3f0-d76d-4784-a36d-36a988ed40b4/public_url
+- Generative AI Developer: https://www.credly.com/badges/a1fe82d1-b5cd-47af-a950-c3e7d46101ac/public_url
