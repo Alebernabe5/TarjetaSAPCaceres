@@ -14,14 +14,17 @@ https://tarjetaprofesionalalejandrobernabe.netlify.app/
 
 ---
 
-## 📲 Portfolio para recruiters
-
-Escanea el QR para acceder directamente a mi portfolio profesional:
+## 📲 Mi portfolio profesional
 
 <p align="center">
-  <img src="assets/qrRecruiters.png" alt="QR del portfolio profesional de Alejandro Bernabe Guerrero" width="500">
+  <a href="https://tarjetaprofesionalalejandrobernabe.netlify.app/">
+    <img src="./assest/qrRecruiters.png" alt="QR Portfolio Alejandro Bernabe Guerrero" width="500">
+  </a>
 </p>
 
+<p align="center">
+  <strong>Escanea el QR o haz clic en la imagen para conocer mi perfil profesional.</strong>
+</p>
 ---
 
 ## 👨‍💻 Sobre mí
