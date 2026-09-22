@@ -86,13 +86,36 @@
 
   <div class="buttons">
     <a class="btn primary" href="https://www.linkedin.com/in/alejandro-bernab%C3%A9-guerrero-708b791b2/" target="_blank" rel="noopener">↗ &nbsp; VER LINKEDIN</a>
+    <a class="btn secondary" href="Alejandro_Bernabe_Guerrero.vcf" download>
+    ♙ &nbsp; GUARDAR CONTACTO
+</a>
     <a class="btn secondary" href="CV_Alejandro_Bernabe_Guerrero.pdf" target="_blank" rel="noopener">▣ &nbsp; VER / DESCARGAR CV</a>
     <a class="btn secondary" href="https://wa.me/34691175987?text=Hola%20Alejandro%2C%20soy%20%5BNOMBRE%5D%20de%20%5BEMPRESA%5D.%20Coincidimos%20en%20el%20Speed%20Dating%20de%20SAP%20en%20C%C3%A1ceres%20y%20quer%C3%ADa%20ponerme%20en%20contacto%20contigo%20para%20seguir%20hablando%20sobre%20tu%20perfil.%20Saludos!" target="_blank" rel="noopener">◉ &nbsp; CONTACTAR POR WHATSAPP</a>
+    <a class="btn secondary" type="button" onclick="shareProfile()">
+    ↗ &nbsp; COMPARTIR PERFIL
+</a>
   </div>
 
   <div class="footer">SAP · ABAP Cloud · BTP · AI &amp; Big Data</div>
 </div>
 </section>
 </main>
+<script>
+function shareProfile() {
+    const url = "https://tarjetaprofesionalalejandrobernabe.netlify.app/";
+
+    if (navigator.share) {
+        navigator.share({
+            title: "Alejandro Bernabe Guerrero · SAP",
+            text: "Te comparto el perfil profesional de Alejandro Bernabe Guerrero.",
+            url: url
+        });
+    } else {
+        navigator.clipboard.writeText(url).then(() => {
+            alert("Enlace copiado al portapapeles.");
+        });
+    }
+}
+</script>
 </body>
 </html>
